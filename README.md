@@ -14,4 +14,6 @@ This repository will hold all the Python notebooks and corresponding files to so
     - "Code for Extractive Summarization" : holds the required Text-Rank functions.
     - "Confimation Test summarizer works" : used to test the algorithms.
     - "Methods for testing" : Contain all remaining functions and code used to evaluate the Text-Rank algorithm.
-  - All metrics are stored in a CSV file. 
+  - All metrics are stored in a CSV file.
+### Data Sets
+  - "TestSummarizer.zip" holds the data used for the evaluation. 
