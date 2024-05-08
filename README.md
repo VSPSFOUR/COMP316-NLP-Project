@@ -1,19 +1,29 @@
 # COMP316-NLP-Project
-This repository will hold all the Python notebooks and corresponding files to solve the NLP problem for the COMP316 Module.
-
+- - - 
+## End Result : Combined_Implementation_222003978_COMP316.ipynb
+  - This notebook showcases the combination of both of NLP concepts below in action to find medical terms from text and present summarized information about them.
 - - - 
 ## Extractive Summarization Section
-### Notebooks
 #### Extractive Summarization - 222003978 - COMP316.ipynb
   - Holds the Text-Rank algorithm used to extract a summary from original text.
   - All linked cell blocks are collected under a heading.
 #### Evaluating Extractive Summarizer.ipynb
   - This notebook is utilised to gather metrics to evaluate the Text-Rank algorithm located in "Extractive Summarization - 222003978 - COMP316.ipynb".
   - These metrics are gathered by comparing a baseline summary to one created by the algorithm. This is done by the "find_similarity" function.
-  - The follow headings separate the code:
-    - "Code for Extractive Summarization" : holds the required Text-Rank functions.
-    - "Confimation Test summarizer works" : used to test the algorithms.
-    - "Methods for testing" : Contain all remaining functions and code used to evaluate the Text-Rank algorithm.
   - All metrics are stored in a CSV file.
-### Data Sets
-  - "TestSummarizer.zip" holds the data used for the evaluation. 
+
+- - - 
+
+## Information Extraction Section 
+#### NER_Model_222003978_COMP316.ipynb
+  - Used to train NER model and save to disk. 
+  - Uses MACCROBAT2020 for training data.
+#### NER_Model_Evaluation.ipynb
+  - Used to gather metrics to emprically evaluate the NER model stored in  "ner_model" folder. 
+  - Uses MACCROBAT2018 as testing data.
+  - Evaluation data is returned in counts and percentages.
+- - - 
+## Data Sets
+  - "TestSummarizer" holds the data used for the evaluation. 
+  - "MACCROBAT2020" : NER model training data.
+  - "MACCROBAT2018" : NER model testing data.
